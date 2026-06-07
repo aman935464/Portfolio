@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  background-color: #020617; /* slate-950 */
+  min-height: 100%;
+}
+
+:root {
+  --nav-height: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-height);
+}
+
+section {
+  scroll-margin-top: var(--nav-height);
+}
