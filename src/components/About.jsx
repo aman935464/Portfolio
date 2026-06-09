@@ -22,7 +22,6 @@ export const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold mb-6">MERN Stack Developer</h3>
-
               <p className="text-gray-300 leading-relaxed mb-5">
                 I'm Aman Maurya, a passionate Frontend and MERN Stack Developer
                 who enjoys building responsive, scalable, and user-friendly web
@@ -39,11 +38,10 @@ export const About = () => {
                 improving system design knowledge, and exploring modern web
                 technologies.
               </p>
-              <div className="grid grid-cols-3 gap-4 mt-10">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
                 <Cards />
               </div>
             </div>
-
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 hover:border-blue-500 transition">
                 <Code2 className="text-blue-500 mb-4" size={40} />

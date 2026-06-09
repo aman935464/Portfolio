@@ -41,7 +41,6 @@ export default function Cards() {
             hover:shadow-[0_0_25px_rgba(59,130,246,0.35)]
           "
         >
-          {/* Glow */}
           <div
             className="
               absolute inset-0

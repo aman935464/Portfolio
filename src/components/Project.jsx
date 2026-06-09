@@ -10,7 +10,6 @@ export const Project = () => {
         <h2 className="text-5xl font-bold text-center mb-4">
           Featured Project
         </h2>
-
         <p className="text-center text-gray-400 mb-16">
           A full-stack e-commerce platform built with the MERN stack.
         </p>
@@ -32,7 +31,7 @@ export const Project = () => {
           </div>
           <div className="flex flex-wrap gap-4 mb-8">
             <a
-              href="https://meri-shop-eight.vercel.app"
+              href="https://meri-shop-ofks.vercel.app"
               className="px-5 py-2 bg-blue-600 rounded-lg hover:bg-blue-700"
             >
               Live Demo
