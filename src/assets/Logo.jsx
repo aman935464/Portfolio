@@ -6,9 +6,7 @@ export default function HeroLogo() {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: [
-        "CodeWithAman"
-      ],
+      strings: ["CodeWithAman"],
       typeSpeed: 200,
       backSpeed: 300,
       loop: true,
@@ -18,7 +16,7 @@ export default function HeroLogo() {
   }, []);
 
   return (
-    <h2 className="text-2xl text-white w-[clamp(2rem,2vw,5rem)] font-[monolitic]">
+    <h2 className="text-lg sm:text-xl w-[clamp(2rem,2vw,4rem)] md:text-2xl text-white font-[monolitic]">
       <span ref={typedRef}></span>
     </h2>
   );
