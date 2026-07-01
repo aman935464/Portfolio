@@ -1,5 +1,4 @@
 import { Mail, Phone, MapPin } from "lucide-react";
-
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import ContactForm from "../Pages/ContactForm";
 import SociaMedia from "../Pages/SociaMedia";
@@ -30,7 +29,7 @@ export const Contact = () => {
                   <div>
                     <p className="text-gray-400">Email</p>
                     <a href="mailto:aman9354644@gmail.com">
-                      aman9354644@gmail.com
+                      aman.techcode.dev@gmail.com
                     </a>
                   </div>
                 </div>
@@ -38,7 +37,7 @@ export const Contact = () => {
                   <Phone className="text-blue-500" size={24} />
                   <div>
                     <p className="text-gray-400">Phone</p>
-                    <a href="tel:+9354644145">93546441145</a>
+                    <a href="tel:+9354644145">9354644145</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">

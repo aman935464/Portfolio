@@ -17,7 +17,8 @@ import {
   SiMysql,
   SiVite,
   SiStreamlit,
-  SiJsonwebtokens
+  SiJsonwebtokens,
+  SiReactquery,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -31,7 +32,10 @@ const Skill = {
     { name: "CSS3", icon: FaCss3Alt },
     { name: "Tailwind CSS", icon: SiTailwindcss },
     { name: "Redux", icon: SiRedux },
-    { name: "zustand", icon: Brain }
+    { name: "zustand", icon: Brain },
+    { name: "Tanstack Query", icon: SiReactquery },
+
+    
   ],
   Backend: [
     { name: "Node.js", icon: FaNodeJs },
@@ -47,7 +51,9 @@ const Skill = {
     { name: "Git", icon: FaGitAlt },
     { name: "GitHub", icon: FaGithub },
     { name: "Vite", icon: SiVite },
-    { name: "VS Code", icon: VscVscode}
+    { name: "VS Code", icon: VscVscode},
+    { name: "Postman", icon: SiPostman},
+    
   ],
 };
 

@@ -42,7 +42,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="/Aman_Resumelate.pdf"
+                href="/Aman_Maurya_Resume.pdf"
                 className="px-6 py-3 border border-gray-500 rounded-lg hover:bg-white hover:text-black transition flex items-center justify-center gap-2"
               >
                 <FaDownload />

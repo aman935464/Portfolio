@@ -2,7 +2,7 @@ import React from 'react'
 import PageTransition from '../Pages/PageTransition';
 import { Check } from 'lucide-react';
 export const Project = () => {
-  const Teck = ["React.js", "JavaScript", "CSS", "Zustand", "Tanstack Query", "Node.js", "Express.js", "MongoDB", "JWT"]
+  const Teck = ["React.js", "JavaScript", "CSS", "Zustand", "Tanstack Query", "Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"]
   return (
     <PageTransition>
     <section className="min-h-screen bg-slate-950 text-white px-6 py-2" >
